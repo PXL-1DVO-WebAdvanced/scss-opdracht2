@@ -15,7 +15,7 @@ Wanneer het sass package geïnstalleerd is kunnen we ook het dev script opnieuw 
     npm run dev
 
 ## 2. HTML
-Maak in het index.html bestand, binnen de body tag, volgende elementen aan:
+Verwijder de inhoud van het index.html bestand en maak, binnen de body tag, volgende elementen aan:
 - Een nav element die je de klasse “nav” geeft. 
   - Binnen dit element voorzie je een ongeordende lijst. Definieer in deze lijst een aantal lijstitems. 
   - Binnen elk item zit telkens een anchor link die linkt naarde huidige pagina.
