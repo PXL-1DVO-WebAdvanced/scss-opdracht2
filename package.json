@@ -1,0 +1,15 @@
+{
+  "name": "scss-opdracht1",
+  "version": "1.0.0",
+  "description": "Mijn eerste scss project.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass --watch scss/main.scss:css/main.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.70.0"
+  }
+}
