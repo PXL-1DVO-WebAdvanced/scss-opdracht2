@@ -10,6 +10,10 @@ In dit geval volstaat het om het 'npm install' commando uit te voeren in de term
     
     npm install
 
+Wanneer het sass package geïnstalleerd is kunnen we ook het dev script opnieuw uitvoeren:
+
+    npm run dev
+
 ## 2. HTML
 Maak in het index.html bestand, binnen de body tag, volgende elementen aan:
 - Een nav element die je de klasse “nav” geeft. 
@@ -44,4 +48,46 @@ Pas vervolgens het volgende toe:
   - Gecentreerde tekst
  
 Bekijk de code nu in het main.css bestand en vergelijk deze met die in het main.scss bestand.
+
+## 4. Nesting
+Gebruik nesting om:
+- Het bullet piont van het list-item binnen het nav element weg te halen
+- De basisstijl van de anchor-link binnen dat list-item wordt weggehaald. Gebruik verder de eerder gedefinieerde variabelen om de lettergrootte en de tekstkleur aan te passen.
+- Zorg er met een hover effect voor dat de tekstkleur van de anchor-link binnen het list-itemwijzigt
+
+## 5. Mixin
+Maak een mixin 'margin-padding' die ervoor zorgt dat de elementen nav, section en footer een margin en padding krijgen van 3px. 
+Gebruik waar het kan de klasse namen.
+
+### Parameter
+Pas de mixin aan zodat je er een argument aan kan meegeven. Dit argument is de waarde voor de padding.
+Voor de nav is dat 5px, voor de section 3px en de footer 3px;
+
+### Parameter...
+Definieer een hover effect binnen het footer element (gebruik hiervoor nesting). 
+Zorg ervoor dat detekstkleur en de achtergrondkleur wijzigt.
+Vervolgens pas je een transition toe op de kleur van 0,5s én op de achtergrondkleur van 1s. 
+Maakhiervoor gebruik van een mixin waarbij je meerdere waardes kan meegeven als argument.
+
+## 6. Extend
+Maak een klasse “background-primary” (die in de HTML niet zal gebruikt worden) met volgendeeigenschappen:
+- Achtergrondkleur naar keuze.
+- Tekstkleur naar keuze.
+- Gecentreerde tekst.
+
+Pas deze stijl via een extend toe op alle paragrafen.
+
+## 7. Functies
+Maak een functie “increaseFontSize”. 
+Deze functie heeft een parameter $size en geeft de waarde hiervan, vermenigvuldigd met 2, terug.
+Roep deze functie aan in de paragrafen voor de lettergrootte
+
+## 8. Partials
+Voeg volgende partials toe:
+- _global: met alle variabelen, mixins, functies en overkoepelende stijlen.
+- _nav: met alle code voor de navigatie.
+- _section: met alle code voor het section element.
+- _footer: met alle code voor het footer element.
+
+Zorg ervoor dat al deze partials ingeladen worden in het main.scss bestand. 
 
