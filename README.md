@@ -66,8 +66,8 @@ Voor de nav is dat 5px, voor de section 3px en de footer 3px;
 ### Parameter...
 Definieer een hover effect binnen het footer element (gebruik hiervoor nesting). 
 Zorg ervoor dat detekstkleur en de achtergrondkleur wijzigt.
-Vervolgens pas je een transition toe op de kleur van 0,5s én op de achtergrondkleur van 1s. 
-Maakhiervoor gebruik van een mixin waarbij je meerdere waardes kan meegeven als argument.
+Vervolgens pas je een [transition](https://www.w3schools.com/css/css3_transitions.asp) toe op de tekstkleur van 0,5s én op de achtergrondkleur van 1s. 
+Maak hiervoor gebruik van een mixin waarbij je meerdere waardes kan meegeven als argument.
 
 ## 6. Extend
 Maak een klasse “background-primary” (die in de HTML niet zal gebruikt worden) met volgendeeigenschappen:
