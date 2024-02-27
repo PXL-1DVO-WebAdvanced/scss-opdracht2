@@ -1,0 +1,30 @@
+$primary-color: red;
+$secondary-color: blue;
+$tertiary-color: yellow;
+$font-lg: 70px;
+$font-md: 50px;
+$font-sm: 24px;
+
+@mixin margin-padding($padding) {
+    margin: 3px;
+    padding: $padding;
+}
+
+@mixin colorTransition($params...) {
+    transition: $params;
+}
+
+%background-primary {
+    background-color: green;
+    color: yellow;
+    text-align: center;
+}
+
+@function increaseFontSize($size) {
+    @return calc($size * 2);
+}
+
+p {
+    @extend %background-primary;
+    font-size: increaseFontSize(1rem)
+}

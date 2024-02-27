@@ -1,0 +1,10 @@
+@use 'global' as *;
+
+.banner {
+    @include margin-padding(3);
+    h1 {
+    font-size: $font-lg;
+    color: $secondary-color;
+    text-align: center;
+    }
+}
