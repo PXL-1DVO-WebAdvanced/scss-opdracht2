@@ -51,9 +51,9 @@ Bekijk de code nu in het main.css bestand en vergelijk deze met die in het main.
 
 ## 4. Nesting
 Gebruik nesting om:
-- Het bullet piont van het list-item binnen het nav element weg te halen
-- De basisstijl van de anchor-link binnen dat list-item wordt weggehaald. Gebruik verder de eerder gedefinieerde variabelen om de lettergrootte en de tekstkleur aan te passen.
-- Zorg er met een hover effect voor dat de tekstkleur van de anchor-link binnen het list-itemwijzigt
+- Het bullet point van het list-item binnen het nav element weg te halen
+- De basisstijl van de anchor-link binnen dat list-item wordt weggehaald. Gebruik verder de eerder gedefinieerde variabelen om de lettergrootte en de tekstkleur aan te passen. (font-md + tertiary-color)
+- Zorg er met een hover effect voor dat de tekstkleur van de anchor-link binnen het list-item wijzigt naar de secondary-color
 
 ## 5. Mixin
 Maak een mixin 'margin-padding' die ervoor zorgt dat de elementen nav, section en footer een margin en padding krijgen van 3px. 
@@ -66,11 +66,11 @@ Voor de nav is dat 5px, voor de section 3px en de footer 3px;
 ### Parameter...
 Definieer een hover effect binnen het footer element (gebruik hiervoor nesting). 
 Zorg ervoor dat detekstkleur en de achtergrondkleur wijzigt.
-Vervolgens pas je een [transition](https://www.w3schools.com/css/css3_transitions.asp) toe op de tekstkleur van 0,5s én op de achtergrondkleur van 1s. 
+Vervolgens pas je een transition toe op de kleur van 0,5s én op de achtergrondkleur van 1s. 
 Maak hiervoor gebruik van een mixin waarbij je meerdere waardes kan meegeven als argument.
 
 ## 6. Extend
-Maak een klasse “background-primary” (die in de HTML niet zal gebruikt worden) met volgendeeigenschappen:
+Maak een klasse “background-primary” (die in de HTML niet zal gebruikt worden) met volgende eigenschappen:
 - Achtergrondkleur naar keuze.
 - Tekstkleur naar keuze.
 - Gecentreerde tekst.
