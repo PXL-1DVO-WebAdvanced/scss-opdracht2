@@ -39,12 +39,12 @@ Verwijder de bestande code in het main.scss bestand maak dan de volgende 6 varia
 Pas vervolgens het volgende toe:
 - Gebruik de primary-color variabele om het nav-element, op basis van de klasse, een achtergrondkleur te geven.
 - Geef het heading element binnen het element met klasse “banner” de volgende eigenschappen:
-  - Lettergrootte: font-lg
-  - Tekstkleur: secondary-color
-  - Gecentreerde tekst
+  - Lettergrootte: font-lg + vette tekst + lettertype arial, sans-serif
+  - Tekstkleur: secondary-color 
+  - Gecentreerde tekst + tekst in hoofdletters
 - Geef het heading element in de footer volgende eigenschappen:
   - Lettergrootte: font-md
-  - Tekstkleur: primary-color
+  - Tekstkleur: primary-color 
   - Gecentreerde tekst
  
 Bekijk de code nu in het main.css bestand en vergelijk deze met die in het main.scss bestand.
