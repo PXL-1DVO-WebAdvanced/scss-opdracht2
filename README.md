@@ -1,6 +1,6 @@
 # SCSS: Opdracht 2
 
-Deze opdracht is het vervolg van opdracht 1: https://classroom.github.com/a/2Cllv-2l
+Deze opdracht is het vervolg van opdracht 1
 
 ## 1. Setup
 Net zoals in de vorige opdracht moet je ook nu een lokale clone maken van deze repository!
@@ -25,7 +25,7 @@ Verwijder de inhoud van het index.html bestand en maak, binnen de body tag, volg
   - Dit element bevat een heading van niveau 3 en eenparagraaf. Geef de elementen content naar keuze
 
 ## 3. Variabelen
-De HTML pagina stelt de website voor. Deze website zal hoofdzakelijk drie kleuren gebruiken. Om vooreenheid te zorgen in de lettergrootte, gaan we deze ook definiëren.
+De HTML pagina stelt de website voor. Deze website zal hoofdzakelijk drie kleuren gebruiken. Om voor eenheid te zorgen in de lettergrootte, gaan we deze ook definiëren.
 Verwijder de bestande code in het main.scss bestand maak dan de volgende 6 variabelen aan en geef ze een waarde:
 - 3 Variabelen voor de verschillende kleuren
   - primary-color: red
@@ -39,12 +39,12 @@ Verwijder de bestande code in het main.scss bestand maak dan de volgende 6 varia
 Pas vervolgens het volgende toe:
 - Gebruik de primary-color variabele om het nav-element, op basis van de klasse, een achtergrondkleur te geven.
 - Geef het heading element binnen het element met klasse “banner” de volgende eigenschappen:
-  - Lettergrootte: font-lg
-  - Tekstkleur: secondary-color
-  - Gecentreerde tekst
+  - Lettergrootte: font-lg + vette tekst + lettertype arial, sans-serif
+  - Tekstkleur: secondary-color 
+  - Gecentreerde tekst + tekst in hoofdletters
 - Geef het heading element in de footer volgende eigenschappen:
   - Lettergrootte: font-md
-  - Tekstkleur: primary-color
+  - Tekstkleur: primary-color 
   - Gecentreerde tekst
  
 Bekijk de code nu in het main.css bestand en vergelijk deze met die in het main.scss bestand.
