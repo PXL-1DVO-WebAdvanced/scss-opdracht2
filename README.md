@@ -1,6 +1,6 @@
 # SCSS: Opdracht 2
 
-Deze opdracht is het vervolg van opdracht 1: https://classroom.github.com/a/2Cllv-2l
+Deze opdracht is het vervolg van opdracht 1
 
 ## 1. Setup
 Net zoals in de vorige opdracht moet je ook nu een lokale clone maken van deze repository!
